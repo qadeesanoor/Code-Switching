@@ -253,22 +253,19 @@ body {
     font-size: 1.02rem !important;
     background: #0f172a !important;
     color: #f1f5f9 !important;
+    
+    /* Hide scrollbar */
+    overflow-y: auto !important;
+    scrollbar-width: none !important;          /* Firefox */
+    -ms-overflow-style: none !important;       /* IE / Edge */
 }
 
-/* Make sure the inner container / spans also stay dark */
-#right-panel .highlightedtext > div,
-#right-panel .highlightedtext span {
-    background-color: transparent !important;
-    color: inherit !important;
-}
-
-/* Tag pills themselves */
-#right-panel mark,
-#right-panel .token,
-#right-panel span[style*="background"] {
-    border-radius: 4px !important;
-    padding: 1px 4px !important;
-    color: #0f172a !important;
+/* Hide scrollbar for Chrome, Safari, Opera */
+#right-panel .highlightedtext::-webkit-scrollbar,
+#right-panel .prose::-webkit-scrollbar,
+#right-panel [data-testid="highlighted-text"]::-webkit-scrollbar,
+#right-panel .token-classification::-webkit-scrollbar {
+    display: none !important;
 }
 
 
