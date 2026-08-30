@@ -461,10 +461,9 @@ with gr.Blocks(
         """
         <div id="title-block">
             <div class="decoration">✦</div>
-            <div class="category">NLP • WORD-LEVEL LANGUAGE IDENTIFICATION</div>
+            <div class="category"> • NLP • WORD-LEVEL LANGUAGE IDENTIFICATION  • </div>
             <h1>Roman Urdu–English Code-Switching Tagger</h1>
             <p>
-                Detect and highlight Urdu, English & mixed tokens in code-switched text
             </p>
         </div>
         """
