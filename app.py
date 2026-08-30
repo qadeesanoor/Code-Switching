@@ -24,14 +24,14 @@ classifier = pipeline(
 # ============================================================
 
 LABEL_COLORS = {
-    "URD": "#64748b",   # slate-500
-    "ENG": "#94a3b8",   # slate-400
-    "MIX": "#a78bfa",   # violet-400
+    "URD": "#64748b",   
+    "ENG": "#94a3b8",   
+    "MIX": "#a78bfa",   
 }
 
 
 # ============================================================
-# CUSTOM CSS (Dark Theme – matching Urdu OCR style)
+# CUSTOM CSS 
 # ============================================================
 
 CUSTOM_CSS = """
